@@ -1,0 +1,417 @@
+h1,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #666;
+  line-height: 1.8;
+
+  
+}
+        
+#about, #schedule {
+    padding-top:30px;
+    margin-top: -30px;
+}
+
+p {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 12pt;
+    color: #666;
+}
+
+a {
+    color: #21466d;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+li {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 12pt;
+}
+
+h1 { font-family:"Lato", sans-serif;
+    size: 48pt;
+    color: #4d4d4d;
+    
+}
+
+ h2 {
+ 	font-family:"Overlock", "Georgia";
+ 	size: 28pt;
+    color: #21466d;
+  }
+  
+.header-style{
+    size: 36pt;
+    color: white;
+    text-align: center;
+}
+  
+h3 {
+    font-family: "Lato", sans-serif;
+    size: 18pt;
+    color: #4d4d4d
+}
+  
+.w3-col.m3 { 
+    width: 33.33%;
+}
+
+/* Navigation */
+    
+.w3-animate-top .navigation__link {
+    color: darkslategray;
+    }
+    
+.navigation__link.active {
+    background-color: #5b758f;
+    color: white;
+    }
+    
+.navigation__link {
+        color: #5f5f5f;
+    }
+
+.display-rounded {
+    border-radius: 4px;
+    background: rgba(0,0,0,0.65) !important;
+}
+
+.small-display-rounded {
+    padding: 0 15px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.65) !important;
+}
+
+/* Buttons */ 
+.blue-rounded {
+     background: #5b758f;
+    border-radius: 4px;
+    color: white;
+    }
+    
+.blue-rounded:focus {
+    color: #000!important;
+    background-color: #ccc!important;
+    }
+    
+footer, .highlight-bar {
+    background: #213242;
+    color: white;
+    }
+
+/* Contact Form */
+.contact-form>label {
+    display:block;
+    }
+    
+.contact-form>input {
+    display:block;
+    padding:3px;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    }
+    
+.contact-form>textarea {
+    display:block;
+    width:100%;
+    border-radius: 4px;
+    border: 1px solid #cbcbcb;
+    resize:none;
+    height: 175px;
+    }
+
+.text-input{
+    width: 33.33%;
+}
+
+/* Social media icons */
+    
+    .social-icon {
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    
+.icon-size {
+    font-size: 30px;
+    }
+    
+.wb-invis {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 1px; 
+    }
+
+/* Banner Images */
+
+.w3-hover-opacity {cursor: pointer;}
+
+/* Create a Parallax Effect */
+
+
+/* First image */
+.bgimg-1 {
+  /* background-image: url("../Images/Home_page/banner-5.jpg"); */
+  min-height: 50%;
+  margin-bottom: 25px;
+    background-attachment: fixed;
+  background-position: center;
+  background-position-y: center;
+  background-position-x: 75%;
+  height: 485px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Second image (Adventures) */
+.bgimg-2 {
+  /* background-image: url("../Images/Home_page/adventures-1.jpg"); */
+  min-height: 250px;
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  /* background-image: url("../Images/Home_page/contact-1.jpg"); */
+  min-height: 250px;
+      background-attachment: fixed;
+    background-position-x: 72%;
+    background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    min-height: 400px;
+  }
+}
+
+/* Two column grid on tablet size */
+@media (max-width: 768px){
+    .w3-col.m3 {
+        width: 48%;
+    }
+}
+    
+/* Remove contact image from mobile */
+@media (max-width: 600px) {
+    .hide-image, .highlight-bar {
+        display: none;
+    }
+    .w3-col.m3 {
+        width: 100%;
+    }
+}
+    
+/* Blog Classes */
+
+/* Hover or focus over blog preview section */
+
+.blog-thumbnail {
+    width: 300px;
+    height: 200px;
+}
+    
+.hover-clickable {
+    text-decoration: none;
+    display:block;
+    transition: transform 0.15s ease-in;
+}
+    
+.hover-clickable:focus, .hover-clickable:hover, .hover-clickable:active {
+    -webkit-transform: scale(0.95,0.95);
+ transform: scale(0.95,0.95);
+    box-shadow: inset -1px -1px 3px #cbcbcb;
+    padding: 3px 6px;
+    }
+    
+.hover-clickable:hover img, .hover-clickable:focus img {
+    opacity: 0.6;
+        
+}
+
+/* Blog Banner Images */
+.banner {
+    background-size: auto;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+
+.bgimg-4 {
+  /* background-image: url("../Images/Banner_images/Beach.jpg"); */
+}
+
+.bgimg-Seattle {
+    background-position-x: 50%;
+    /* background-image: url("../Images/Banner_images/Lake_Crescent.jpg"); */
+}
+
+.bgimg-California {
+       /* background-image: url("../Images/Banner_images/California_banner.jpg"); */
+}
+
+.bgimg-WebDesign {
+    background-position-x: 75%;
+        /* background-image: url("../Images/Banner_images/Yoga.jpg"); */
+}
+
+.bgimg-Oahu {
+      background-position-x: 85%;
+        /* background-image: url("../Images/Banner_images/Oahu_banner.jpg"); */
+}
+
+.bgimg-Minimalism {
+    background-position-x: 85%;
+      /* background-image: url("../Images/Banner_images/Minimalism.jpg"); */
+}
+
+.bgimg-Food {
+    background-position-x: 85%;
+      /* background-image: url("../Images/Banner_images/Food.jpg"); */
+}
+
+.bgimg-meditation {
+    background-position-y: 50%;
+    background-size: cover; 
+      /* background-image: url("../Images/Banner_images/banner_tips-for-a-solid-meditation-practice.jpg"); */
+}
+
+.bgimg-montreal {
+    background-position-y: 50%;
+    background-position: center 
+    background-size: cover; 
+      /* background-image: url("../Images/Banner_images/blog_the-perfect-weekend-in-montreal.jpg"); */
+}
+
+.bgimg-list {
+    /* background-image: url(../Images/Home_page/adventures-1.jpg); */
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1090px){
+    .bgimg-list {
+        background-position-y: 20%;
+        background-attachment: inherit;
+    }
+}
+
+/* Blog Image Types */
+
+.image-center {
+    display: block;
+    text-align: center;
+    font-style: oblique;
+    color: darkgrey;
+    margin: 0 0 30px;
+}
+
+.image-center img {
+    width: auto;
+    height: auto;
+}
+
+.image-left img {
+    float: left;
+    /*height: 425px;*/
+    width: 425px;
+    margin-right: 20px;
+}
+
+.image-right img {
+    float: right;
+    /*height: 425px;*/
+    width: 425px;
+    margin-left: 20px;
+}
+
+@media (max-width: 675px){
+    .image-left img, .image-right img {
+        display: block;
+        margin: 0 auto 25px;
+        float: none;
+        height: auto;
+        width: auto;
+    }
+}
+
+/* Blog spacing */
+
+.blog-banner-spacer {
+    margin-bottom: 25px;
+}
+
+.blog-content p {
+    margin-bottom: 30px;
+}
+
+/* Back to main link */
+
+.back-link {
+    text-decoration: none;
+    color: #5b758f;
+    
+}
+
+.back-link:hover, .back-link:focus {
+    text-decoration: underline;
+    color: darkgrey;
+    
+}
+
+/* More Adventures bar */
+
+.reading-bar {
+    background: #213242;
+    color: white; 
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.reading-bar span {
+    padding: 20px 0;
+    display: block;
+    font-size: 24px;
+}
+
+
+/* All Adventures page */
+
+.blog-list {
+    width: auto;
+}
+
+.blog-list a {
+    display:flex;
+}
+
+.blog-list div {
+    max-width:575px;
+}
+
+.blog-list a img {
+    margin-right: 20px;
+}
+
+@media (max-width: 685px){
+    .blog-list a {
+        flex-wrap: wrap;
+    }
+}
+
